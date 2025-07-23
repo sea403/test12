@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            font-family: 'Inter', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1350&q=80') center/cover no-repeat;
+            color: #fff;
+            padding: 120px 20px;
+            text-align: center;
+        }
+        .hero h1 {
+            margin: 0 0 15px;
+            font-size: 3em;
+            font-weight: 600;
+        }
+        .hero p {
+            margin: 0 0 25px;
+            font-size: 1.25em;
+        }
+        .btn {
+            display: inline-block;
+            padding: 14px 30px;
+            background: #ffcb00;
+            color: #000;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: background 0.3s ease;
+        }
+        .btn:hover {
+            background: #ffd639;
+        }
+        .features {
+            padding: 60px 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .feature-item {
+            flex: 1 1 250px;
+            background: #f4f4f4;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .feature-item h3 {
+            margin-top: 0;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #fafafa;
+        }
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <h1>Your Awesome Product</h1>
+        <p>Build something great with our solution.</p>
+        <a href="#" class="btn">Get Started</a>
+    </header>
+
+    <section class="features">
+        <div class="feature-item">
+            <h3>Elegant Design</h3>
+            <p>Beautiful and modern interface for your users.</p>
+        </div>
+        <div class="feature-item">
+            <h3>Easy Customization</h3>
+            <p>Simple tools to tailor it to your needs.</p>
+        </div>
+        <div class="feature-item">
+            <h3>Reliable Support</h3>
+            <p>Our team is here to help you succeed.</p>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2025 Demo Company. All rights reserved.
+    </footer>
+</body>
+</html>
